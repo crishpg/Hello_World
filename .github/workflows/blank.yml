@@ -8,3 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello World!Cristiano Schmitt"
+        python -m pip install --upgrade pip
+        pip install build
